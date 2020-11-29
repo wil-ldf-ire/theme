@@ -1,5 +1,5 @@
 <?php
-include_once ('../init.php');
+include_once ('../tribe.init.php');
 header("Content-Type: text/css; charset=utf-8");
 $sass = new Sass();
 $sass->setStyle(Sass::STYLE_COMPRESSED);
