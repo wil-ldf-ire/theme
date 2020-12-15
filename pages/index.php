@@ -1,4 +1,4 @@
-<?php include_once __DIR__.'/../includes/_header.php' ?>
+<?php include_once __DIR__ . '/_header.php'?>
 
 <div class="container p-4 mt-5">
     <div class="row">
@@ -18,4 +18,4 @@
     </div>
 </div>
 
-<?php include_once __DIR__.'/../includes/_footer.php' ?>
+<?php include_once __DIR__ . '/_footer.php'?>

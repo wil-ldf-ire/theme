@@ -18,9 +18,9 @@ $theme = new Theme();
 	<meta property="og:image" content="<?=$meta_image_url?>">
 
 	<link href="/sass?file=bootstrap" rel="stylesheet">
-	<link href="/plugins/fontawesome/css/all.min.css" rel="stylesheet">
+	<link href="/admin/plugins/fontawesome/css/all.min.css" rel="stylesheet">
 	<link href="https://unpkg.com/flickity@2/dist/flickity.min.css" rel="stylesheet">
-	<link href="<?=THEME_URL; ?>/css/custom.css" rel="stylesheet">
+	<link href="<?=THEME_URL;?>/css/custom.css" rel="stylesheet">
 	<script>const THEME_URL = "<?=THEME_URL?>";</script>
 </head>
 
