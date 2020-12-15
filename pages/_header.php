@@ -17,10 +17,10 @@ $theme = new Theme();
 	<meta property="og:description" content="<?=$meta_description?>">
 	<meta property="og:image" content="<?=$meta_image_url?>">
 
-	<link href="/sass?file=bootstrap" rel="stylesheet">
+	<link href="/assets/scss/?file=bootstrap" rel="stylesheet">
 	<link href="/admin/plugins/fontawesome/css/all.min.css" rel="stylesheet">
 	<link href="https://unpkg.com/flickity@2/dist/flickity.min.css" rel="stylesheet">
-	<link href="<?=THEME_URL;?>/css/custom.css" rel="stylesheet">
+	<link href="<?=THEME_URL;?>/assets/css/custom.css" rel="stylesheet">
 	<script>const THEME_URL = "<?=THEME_URL?>";</script>
 </head>
 
