@@ -5,7 +5,7 @@ function error404() {
 	die();
 }
 
-if (!$dash->getSlug()) {
+if (!$_GET['file']) {
 	error404();
 }
 
@@ -13,10 +13,9 @@ $sass = new Sass();
 $sass->setStyle(Sass::STYLE_COMPRESSED);
 $sass->setEmbed(true);
 
-$sass_file = ($dash->getSlug() ?? null);
+$sass_file = $_GET['file'] ?? null;
 $sass_dir = THEME_PATH . '/assets/scss/';
 
-$css = '';
 /**
  * if requested file is "bootstrap" then load bootstrap.scss
  * otherwise load .scss file from "scss/"
@@ -34,6 +33,6 @@ if ($sass_file == 'bootstrap') {
 if ($css) {
 	header("Content-Type: text/css; charset=utf-8");
 	echo $css;
-} else {
-	error404();
 }
+
+error404();
