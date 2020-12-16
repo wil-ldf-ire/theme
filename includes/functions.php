@@ -14,7 +14,6 @@ class Functions
                     if ($cover_media) {
                         $op .= '<img src="' . $cover_media . '">';
                     }
-
                 }
                 $op .= '</div>';
             }
@@ -85,5 +84,4 @@ class Functions
         }
         return $rowsWithKeys;
     }
-
 }

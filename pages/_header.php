@@ -1,6 +1,7 @@
 <?php
 
 use Wildfire\Core\Theme;
+
 $theme = new Theme();
 
 ?>
