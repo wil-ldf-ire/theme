@@ -5,13 +5,17 @@
         <div class="col-md-12">
             <div class="jumbotron">
                 <h1 class="text-center">
-                    You're all set!<br/>
-                    Cheers!<br/>
-                    <span><i class="fas fa-glass-cheers"></i></span>
+                    We support our farmers in their fight against big corporations.
                 </h1>
-                <p class="text-center p4 mt-4">
-                    Checkout the official documentation for more information.<br/>
-                    You can now start building your website now...
+
+                <div><img src="img-fluid" src="<?=THEME_URL;?>/assets/img/i-heart-kheti.jpg"></div>
+
+                <p class="text-center mt-4">
+                    Found this during the protest at Singhu Border. Loved the fact that this was picked up from Milton Glaser's work and used so well.
+                </p>
+
+                <p class="text-center mt-4 text-muted">
+                    A Conversation with <a href="https://creativecloud.adobe.com/cc/discover/article/a-conversation-with-milton-glaser?locale=en">Milton Glaser</a>.
                 </p>
             </div>
         </div>
