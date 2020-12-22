@@ -8,7 +8,7 @@
                     We support our farmers in their fight against big corporations.
                 </h1>
 
-                <div><img src="img-fluid" src="<?=THEME_URL;?>/assets/img/i-heart-kheti.jpg"></div>
+                <div><img class="img-fluid" src="<?=THEME_URL;?>/assets/img/i-heart-kheti.jpg"></div>
 
                 <p class="text-center mt-4">
                     Found this during the protest at Singhu Border. Loved the fact that this was picked up from Milton Glaser's work and used so well.
