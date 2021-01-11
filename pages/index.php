@@ -1,6 +1,6 @@
 <?php include_once __DIR__ . '/_header.php'?>
 
-<main class="container">
+<main class="container mt-5">
     <div class="starter-template text-center py-5 px-3">
         <h1>
             We support our farmers in their fight against big corporations.

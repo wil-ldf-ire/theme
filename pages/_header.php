@@ -22,7 +22,7 @@ $dash = new Dash();
 	<link href="<?=THEME_URL;?>/assets/css/custom.css" rel="stylesheet">
 </head>
 
-<body class="pb-5">
+<body>
 
 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
   <div class="container-fluid">
