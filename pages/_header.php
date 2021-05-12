@@ -1,10 +1,4 @@
-<?php
-use Wildfire\Core\Dash;
-use Wildfire\Core\Theme;
-$theme = new Theme();
-$dash = new Dash();
-?>
-
+<?php include_once __DIR__ . '../includes/_init.php';?>
 <!doctype html>
 <html lang="<?=$types['webapp']['lang']?>">
 <head>
