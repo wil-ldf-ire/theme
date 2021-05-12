@@ -1,7 +1,10 @@
 <?php
+namespace Wildfire\Core;
 
 class Functions {
 	public function get_cover_media_html($postdata, $css_class = '') {
+		$dash = new Dash();
+
 		$op = '';
 		if (is_array($postdata['cover_media'])) {
 			if (count($postdata['cover_media']) == 1) {
